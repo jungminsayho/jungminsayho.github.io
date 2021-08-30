@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jungminsayho</title>
+        <link>https://jungminsayho.github.io/</link>
+        <description>Jungminsayho</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Aug 2021 14:34:24 &#43;0900</lastBuildDate>
+            <atom:link href="https://jungminsayho.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://jungminsayho.github.io/posts/first_post/</link>
+    <pubDate>Tue, 24 Aug 2021 14:34:24 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://jungminsayho.github.io/posts/first_post/</guid>
+    <description><![CDATA[Hi my name is sayho. 안녕 내이름은 세이호 ㅎㅂㅎ]]></description>
+</item></channel>
+</rss>
