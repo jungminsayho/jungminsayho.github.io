@@ -3,7 +3,14 @@
         <title>All Posts - Jungminsayho</title>
         <link>https://jungminsayho.github.io/posts/</link>
         <description>All Posts | Jungminsayho</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Aug 2021 14:34:24 &#43;0900</lastBuildDate><atom:link href="https://jungminsayho.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</lastBuildDate><atom:link href="https://jungminsayho.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Third Post</title>
+    <link>https://jungminsayho.github.io/posts/third_post/</link>
+    <pubDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://jungminsayho.github.io/posts/third_post/</guid>
+    <description><![CDATA[Hi my name is sayho. 안녕 내이름은 세이호 ㅎㅂㅎ 음 무슨말을 하지 몰라몰라몰라몰라몰라 testtesttesttesttesttesttesttest testtesttesttesttesttesttesttesttest testtesttesttesttesttesttesttesttest]]></description>
+</item><item>
     <title>Second_post</title>
     <link>https://jungminsayho.github.io/posts/second_post/</link>
     <pubDate>Mon, 30 Aug 2021 14:34:24 &#43;0900</pubDate>
