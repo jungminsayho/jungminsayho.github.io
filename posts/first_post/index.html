@@ -148,7 +148,8 @@ github 주소: https://github.com/jungminsayho/gogigak
 <span class="n">category</span>      <span class="o">=</span> <span class="bp">None</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>먼저, query parameter로 받을 <code>sort</code>와 <code>category</code>의 value를 모두 받아둔다.<br>
+</div><br>
+<p>먼저, query parameter로 받을 <code>sort</code>와 <code>category</code>의 value를 모두 받아둔다.<br>
 <code>category = None</code>으로 미리 변수설정을 해둔 이유는 아래에 나오지만, 카테고리 별로 카테고리 이미지도 반환해줘야 하는데,
 제품리스트의 전체를 반환하는 경우(카테고리 필터 없이)의 이미지는 프론트에서 하드코딩으로 넣는 방법을 사용했기 때문에, 이 경우 백엔드에서는 카테고리 이미지를 빈 값으로 반환하기 위함이다.</p>
 <br>
@@ -172,7 +173,8 @@ github 주소: https://github.com/jungminsayho/gogigak
     <span class="n">q</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">category</span><span class="o">=</span><span class="n">category</span><span class="p">),</span> <span class="n">q</span><span class="o">.</span><span class="n">AND</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>카테고리 필터링을 위해 <strong><code>Q 객체</code></strong>를 사용했고, <strong><code>Q 객체</code></strong>에 아무 필터조건도 저장되지 않은 경우에는 전체 product를 반환한다.</p>
+</div><br>
+<p>카테고리 필터링을 위해 <strong><code>Q 객체</code></strong>를 사용했고, <strong><code>Q 객체</code></strong>에 아무 필터조건도 저장되지 않은 경우에는 전체 product를 반환한다.</p>
 <br>
 <h4 id="-q를-향한-삽질">🧹 Q를 향한 삽질</h4>
 <p>처음에 Q에 대해 알아봤을 때는, <code>조건A or 조건B</code>와 같은 여러 조건의 합집합을 사용하기 위한 방법이라고만 생각했고, 그래서 내가 구현해야 할 필터링에는 필요하지 않다고 생각했다.<br>
