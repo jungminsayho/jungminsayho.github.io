@@ -3,19 +3,17 @@
         <title>Jungminsayho - Author - Jungminsayho</title>
         <link>https://jungminsayho.github.io/authors/jungminsayho/</link>
         <description>Jungminsayho - Author - Jungminsayho</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</lastBuildDate><atom:link href="https://jungminsayho.github.io/authors/jungminsayho/" rel="self" type="application/rss+xml" /><item>
-    <title>Third Post</title>
-    <link>https://jungminsayho.github.io/posts/third_post/</link>
-    <pubDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://jungminsayho.github.io/posts/third_post/</guid>
-    <description><![CDATA[Hi my name is sayho. 안녕 내이름은 세이호 ㅎㅂㅎ 음 무슨말을 하지 몰라몰라몰라몰라몰라 testtesttesttesttesttesttesttest testtesttesttesttesttesttesttesttest testtesttesttesttesttesttesttesttest]]></description>
-</item><item>
-    <title>First_post</title>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>sayho2021@gmail.com (Jungminsayho)</managingEditor>
+            <webMaster>sayho2021@gmail.com (Jungminsayho)</webMaster><lastBuildDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</lastBuildDate><atom:link href="https://jungminsayho.github.io/authors/jungminsayho/" rel="self" type="application/rss+xml" /><item>
+    <title>[프로젝트] 고기각 (Cloning &#39;정육각&#39;)</title>
     <link>https://jungminsayho.github.io/posts/first_post/</link>
-    <pubDate>Tue, 24 Aug 2021 14:34:24 &#43;0900</pubDate>
+    <pubDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</pubDate>
     <author>Author</author>
     <guid>https://jungminsayho.github.io/posts/first_post/</guid>
-    <description><![CDATA[Hi my name is sayho. 안녕 내이름은 세이호 ㅎㅂㅎ]]></description>
+    <description><![CDATA[프로젝트 개요 프로젝트 소개: Django를 이용한 커머스 사이트 &lsquo;정육각&rsquo; 클론 프로젝트  개발기간: 2021.07.05 - 2021.07.16 (총 12일)
+참여인원: 프론트엔드 3명, 백엔드 3명
+github 주소: https://github.com/jungminsayho/gogigak
+백엔드 구현 기능 (내가 작업한 내용은 👀 표시 하였다.)
+ bcrypt와 jwt를 이용한 회원가입 / 로그인 기능 마이페이지 구현 주소 별 신선배송 가능여부 반환 기능 제품 상세페이지 구현 👀 제품 리스트 필터링 기능 (카테고리 별, 판매순/리뷰순/가격순) 👀 제품에 대한 리뷰 작성/읽기/삭제 기능 👀 장바구니에 상품 추가/읽기/삭제/수량변경 기능 구매 기능   기능 구현에 대한 고민 (내가 작업한 기능 중, 고민이 많이 들어갔던 기능에 한하여 작성하였다.]]></description>
 </item></channel>
 </rss>
