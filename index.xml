@@ -4,9 +4,16 @@
         <link>https://jungminsayho.github.io/</link>
         <description>Jungminsayho</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>sayho2021@gmail.com (Jungminsayho)</managingEditor>
-            <webMaster>sayho2021@gmail.com (Jungminsayho)</webMaster><lastBuildDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</lastBuildDate>
+            <webMaster>sayho2021@gmail.com (Jungminsayho)</webMaster><lastBuildDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</lastBuildDate>
             <atom:link href="https://jungminsayho.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>블로그 이전중입니다.</title>
+    <link>https://jungminsayho.github.io/posts/move_to_github_blog/</link>
+    <pubDate>Tue, 31 Aug 2021 14:34:24 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://jungminsayho.github.io/posts/move_to_github_blog/</guid>
+    <description><![CDATA[이전에 사용하던 벨로그에서, 깃헙 블로그로 이전 중입니다!]]></description>
+</item><item>
     <title>[프로젝트] 고기각 (Cloning &#39;정육각&#39;)</title>
     <link>https://jungminsayho.github.io/posts/first_post/</link>
     <pubDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</pubDate>
