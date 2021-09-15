@@ -14,6 +14,17 @@
     <guid>https://jungminsayho.github.io/posts/move_to_github_blog/</guid>
     <description><![CDATA[이전에 사용하던 벨로그에서, 깃헙 블로그로 이전 중입니다!]]></description>
 </item><item>
+    <title>[Django] 운영환경에서 runserver를 사용하지 않는 이유</title>
+    <link>https://jungminsayho.github.io/posts/web_server/</link>
+    <pubDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://jungminsayho.github.io/posts/web_server/</guid>
+    <description><![CDATA[(이모지)운영환경에서 runserver를 사용하지 않는 이유 장고 공식 문서에 이런 글이 있다.
+ 이쯤에서 하나 기억할 것이 있습니다. 절대로 개발 서버를 운영 환경에서 사용하지 마십시요. 개발 서버는 오직 개발 목적으로만 사용하여야 합니다(우리는 웹 프레임워크를 만들지 웹 서버를 만들지는 않거든요). - runserver 관련 내용
+ 프로젝트 개발 당시 거의 runserver를 사용했고, aws로 배포할 때 runserver가 아닌 다른 서버 구동 방식이 있다는 걸 알게 되었다.
+우선 운영 서버로 runserver를 사용하지 않는 이유는,
+ 기능이 단순하고 대량요청이나 동시요청을 효율적으로 처리하지 못한다  는 이유로 운영 환경에 적합하지 않기 때문이다.]]></description>
+</item><item>
     <title>[프로젝트] 고기각 (Cloning &#39;정육각&#39;)</title>
     <link>https://jungminsayho.github.io/posts/first_post/</link>
     <pubDate>Sun, 18 Jul 2021 14:34:24 &#43;0900</pubDate>
