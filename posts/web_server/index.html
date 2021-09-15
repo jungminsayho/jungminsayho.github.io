@@ -6,22 +6,22 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>[Django] 운영환경에서 runserver를 사용하지 않는 이유 - Jungminsayho</title><meta name="Description" content=""><meta property="og:title" content="[Django] 운영환경에서 runserver를 사용하지 않는 이유" />
-<meta property="og:description" content="(이모지)운영환경에서 runserver를 사용하지 않는 이유 장고 공식 문서에 이런 글이 있다.
+<meta property="og:description" content="🖥 운영환경에서 runserver를 사용하지 않는 이유 
+장고 공식 문서에 이런 글이 있다.
  이쯤에서 하나 기억할 것이 있습니다. 절대로 개발 서버를 운영 환경에서 사용하지 마십시요. 개발 서버는 오직 개발 목적으로만 사용하여야 합니다(우리는 웹 프레임워크를 만들지 웹 서버를 만들지는 않거든요). - runserver 관련 내용
  프로젝트 개발 당시 거의 runserver를 사용했고, aws로 배포할 때 runserver가 아닌 다른 서버 구동 방식이 있다는 걸 알게 되었다.
-우선 운영 서버로 runserver를 사용하지 않는 이유는,
- 기능이 단순하고 대량요청이나 동시요청을 효율적으로 처리하지 못한다  는 이유로 운영 환경에 적합하지 않기 때문이다." />
+우선 운영 서버로 runserver를 사용하지 않는 이유는," />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jungminsayho.github.io/posts/web_server/" />
 <meta property="article:published_time" content="2021-07-18T14:34:24+09:00" />
 <meta property="article:modified_time" content="2021-07-18T14:34:24+09:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[Django] 운영환경에서 runserver를 사용하지 않는 이유"/>
-<meta name="twitter:description" content="(이모지)운영환경에서 runserver를 사용하지 않는 이유 장고 공식 문서에 이런 글이 있다.
+<meta name="twitter:description" content="🖥 운영환경에서 runserver를 사용하지 않는 이유 
+장고 공식 문서에 이런 글이 있다.
  이쯤에서 하나 기억할 것이 있습니다. 절대로 개발 서버를 운영 환경에서 사용하지 마십시요. 개발 서버는 오직 개발 목적으로만 사용하여야 합니다(우리는 웹 프레임워크를 만들지 웹 서버를 만들지는 않거든요). - runserver 관련 내용
  프로젝트 개발 당시 거의 runserver를 사용했고, aws로 배포할 때 runserver가 아닌 다른 서버 구동 방식이 있다는 걸 알게 되었다.
-우선 운영 서버로 runserver를 사용하지 않는 이유는,
- 기능이 단순하고 대량요청이나 동시요청을 효율적으로 처리하지 못한다  는 이유로 운영 환경에 적합하지 않기 때문이다."/>
+우선 운영 서버로 runserver를 사용하지 않는 이유는,"/>
 <meta name="application-name" content="Jungminsayho">
 <meta name="apple-mobile-web-app-title" content="Jungminsayho"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -92,7 +92,8 @@
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><h1 id="이모지운영환경에서-runserver를-사용하지-않는-이유">(이모지)운영환경에서 <code>runserver</code>를 사용하지 않는 이유</h1>
+            </div><div class="content" id="content"><h1 id="-운영환경에서-runserver를-사용하지-않는-이유">🖥 운영환경에서 runserver를 사용하지 않는 이유</h1>
+<p><br><br></p>
 <p>장고 공식 문서에 이런 글이 있다.</p>
 <blockquote>
 <p>이쯤에서 하나 기억할 것이 있습니다. 절대로 개발 서버를 운영 환경에서 사용하지 마십시요. 개발 서버는 오직 개발 목적으로만 사용하여야 합니다(우리는 웹 프레임워크를 만들지 웹 서버를 만들지는 않거든요). - <code>runserver</code> 관련 내용</p>
@@ -104,7 +105,7 @@
 <li><code>대량요청</code>이나 <code>동시요청</code>을 효율적으로 처리하지 못한다</li>
 </ul>
 <p>는 이유로 운영 환경에 적합하지 않기 때문이다.<br></p>
-<p>장고의 내장 서버는 이번 장에서 설명할 웹 서버와 WSGI 서버의 기능을 모두 포함하고 있다.</p>
+<p>장고의 내장 서버는 추후 설명할 웹 서버와 WSGI 서버의 기능을 모두 포함하고 있다.</p>
 <p>위 공식 문서의 글의 내용을 알고는 있지만, 정확히 완전히 이해하기 위해서는 <code>웹 프레임워크</code>, <code>웹 서버</code> 등의 개념,그리고 그에 연결되는 또다른 개념들을 먼저 이해하고자 한다.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
