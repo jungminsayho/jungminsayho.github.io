@@ -10,7 +10,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jungminsayho.github.io/" />
-<meta property="og:updated_time" content="2021-09-07T14:34:24+09:00" />
+<meta property="og:updated_time" content="2021-09-27T14:34:24+09:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jungminsayho"/>
 <meta name="twitter:description" content=""/>
@@ -73,6 +73,15 @@
         alt="https://jjalbot.com/media/2018/12/fc6f98Qqi/zzal.jpg"
         title="https://jjalbot.com/media/2018/12/fc6f98Qqi/zzal.jpg" /></a></div><h1 class="home-title">개발덕후의 개발블로그</h1><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2><div class="links"><a href="https://github.com/jungminsayho" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="mailto:sayho2021@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/was_webserver/">[Web] Web Server와 WAS</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Jungminsayho</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-09-27">2021-09-27</time></span></div><div class="content">WAS (Web Application Server) 클라이언트로부터 웹 서버가 요청을 받으면 애플리케이션에 대한 로직을 실행하여 서버로 다시 반환해주는 소프트웨어이다.
+웹 서버와 DBMS 사이에서 동작하는 미들웨어로써, 컨테이너 기반으로 동작한다
+
+1. HTTP 서버 (웹 서버) URL 주소의 해석을 맡아 주는 HTTP서버를 말한다.
+단순히 어떤 주소(URL) 요청이 들어왔을 경우, 그 주소에 미리 매핑되어 있는 콘텐츠(HTML 파일이나 이미지 등) 즉, 정적 컨텐츠를 사용자의 브라우저에 응답 형태로 전송하는 역할을 한다.
+이 때 만일 요청된 URL이 서블릿 클래스 또는 JSP파일(ex.</div><div class="post-footer">
+        <a href="/posts/was_webserver/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/web_server/">[Django] 운영환경에서 runserver를 사용하지 않는 이유</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Jungminsayho</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-09-07">2021-09-07</time></span></div><div class="content">장고 공식 문서에 이런 글이 있다.
  이쯤에서 하나 기억할 것이 있습니다. 절대로 개발 서버를 운영 환경에서 사용하지 마십시요. 개발 서버는 오직 개발 목적으로만 사용하여야 합니다(우리는 웹 프레임워크를 만들지 웹 서버를 만들지는 않거든요). - runserver 관련 내용

@@ -4,9 +4,21 @@
         <link>https://jungminsayho.github.io/</link>
         <description>Jungminsayho</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>sayho2021@gmail.com (Jungminsayho)</managingEditor>
-            <webMaster>sayho2021@gmail.com (Jungminsayho)</webMaster><lastBuildDate>Tue, 07 Sep 2021 14:34:24 &#43;0900</lastBuildDate>
+            <webMaster>sayho2021@gmail.com (Jungminsayho)</webMaster><lastBuildDate>Mon, 27 Sep 2021 14:34:24 &#43;0900</lastBuildDate>
             <atom:link href="https://jungminsayho.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[Web] Web Server와 WAS</title>
+    <link>https://jungminsayho.github.io/posts/was_webserver/</link>
+    <pubDate>Mon, 27 Sep 2021 14:34:24 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://jungminsayho.github.io/posts/was_webserver/</guid>
+    <description><![CDATA[WAS (Web Application Server) 클라이언트로부터 웹 서버가 요청을 받으면 애플리케이션에 대한 로직을 실행하여 서버로 다시 반환해주는 소프트웨어이다.
+웹 서버와 DBMS 사이에서 동작하는 미들웨어로써, 컨테이너 기반으로 동작한다
+
+1. HTTP 서버 (웹 서버) URL 주소의 해석을 맡아 주는 HTTP서버를 말한다.
+단순히 어떤 주소(URL) 요청이 들어왔을 경우, 그 주소에 미리 매핑되어 있는 콘텐츠(HTML 파일이나 이미지 등) 즉, 정적 컨텐츠를 사용자의 브라우저에 응답 형태로 전송하는 역할을 한다.
+이 때 만일 요청된 URL이 서블릿 클래스 또는 JSP파일(ex.]]></description>
+</item><item>
     <title>[Django] 운영환경에서 runserver를 사용하지 않는 이유</title>
     <link>https://jungminsayho.github.io/posts/web_server/</link>
     <pubDate>Tue, 07 Sep 2021 14:34:24 &#43;0900</pubDate>
